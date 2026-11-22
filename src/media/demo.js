@@ -1,0 +1,12 @@
+const school = import.meta.env.BASE_URL + 'media/school-day/';
+const family = import.meta.env.BASE_URL + 'media/demo-sunset/';
+const horses = import.meta.env.BASE_URL + 'media/horse-ride/';
+
+export const schoolDay = [
+  { id: 'school-morning', dayId: 'school-day', folderKey: 'schoolFolder', date: '2026-11-20', time: '06:43', titleKey: 'morningTitle', textKey: 'morningText', mood: 'calm', photo: school + 'morning.jpg', music: school + 'morning.mp3', songTitle: 'At Ease', artist: 'Hazelwood', alt: 'Утренний город по дороге в школу', captionKey: 'morning' },
+  { id: 'dombra-break', dayId: 'school-life', folderKey: 'schoolFolder', date: '2026-04-10', time: '06:50', titleKey: 'dombraTitle', textKey: 'dombraText', mood: 'playful', photo: school + 'dombra-break.jpg', music: school + 'the-feeling.mp3', songTitle: 'The Feeling', artist: 'AgusAlvarez & Luke Bergs', alt: 'Друзья отдыхают в домбыра кабинете среди инструментов', captionKey: 'dombra' },
+  { id: 'school-evening', dayId: 'school-day', folderKey: 'schoolFolder', date: '2026-11-20', time: '17:19', titleKey: 'eveningTitle', textKey: 'eveningText', mood: 'joy', photo: school + 'sports-hall.jpg', footage: school + 'spartakiad.mp4', music: school + 'evening.mp3', songTitle: 'Explosive Energy', artist: 'Dagored', alt: 'Спартакиада в школьном спортзале', captionKey: 'evening' },
+  { id: 'sunset-walk', dayId: 'family-day', folderKey: 'familyFolder', date: '2026-06-27', time: '17:29', titleKey: 'sunsetTitle', textKey: 'sunsetText', mood: 'nostalgic', photo: family + 'sunset.jpg', music: school + 'morning.mp3', songTitle: 'At Ease', artist: 'Hazelwood', alt: 'Закат в парке', captionKey: 'sunset' },
+  { id: 'horse-ride', dayId: 'horse-day', folderKey: 'horseFolder', date: '2026-09-11', time: '17:54', titleKey: 'horseTitle', textKey: 'horseText', mood: 'adventurous', footage: [horses + 'ride-1.mp4', horses + 'ride-2.mp4'], music: school + 'evening.mp3', songTitle: 'Explosive Energy', artist: 'Dagored', alt: 'Прогулка верхом с друзьями', captionKey: 'horses' },
+  { id: 'horse-august', dayId: 'horse-day', folderKey: 'horseFolder', date: '2026-08-26', time: '11:42', titleKey: 'horseAugustTitle', textKey: 'horseAugustText', mood: 'energetic', photo: horses + 'horse-photo.jpg', footage: horses + 'horse-august.mp4', music: horses + 'country-roads.mp3', songTitle: 'Driving On Country Roads', artist: 'Dagored', alt: 'Друг учится ездить верхом без седла в ауле', captionKey: 'horseAugust' },
+];
